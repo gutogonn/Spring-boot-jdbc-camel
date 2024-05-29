@@ -12,7 +12,7 @@ import br.com.senior.middleware.processor.PessoaProcessor;
 @Component
 public class PedidoRoute extends RouteBuilder {
 	
-	@Value("${farol.zuul.route}")
+	@Value("${senior.zuul.route}")
 	private String zuulRoute;
 	
 	PedidoProcessor pedidoProcessor = new PedidoProcessor();
